@@ -93,7 +93,7 @@ For feedback, bug reports, or general discussion, join the official community on
 
 ## 📄 License
 
-This mod is provided under the **All Rights Reserved License**. See [LICENSE](./LICENSE) for more details.
+This mod is provided under the **All Rights Reserved License**.
 
 
 **Thank you for checking out Easy Create!**  
