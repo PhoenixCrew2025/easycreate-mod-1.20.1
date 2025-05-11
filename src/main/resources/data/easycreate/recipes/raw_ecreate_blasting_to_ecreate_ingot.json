@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 180,
+  "experience": 1.0,
+  "group": "ecreate",
+  "ingredient": {
+    "item": "easycreate:raw_ecreate"
+  },
+  "result": "easycreate:ecreate_ingot"
+}

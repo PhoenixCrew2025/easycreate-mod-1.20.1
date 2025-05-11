@@ -1,0 +1,15 @@
+{
+  "item.easycreate.ecreate_ingot": "Ecreate Ingot",
+  "item.easycreate.create_nether_star": "Ecreate Star",
+  "item.easycreate.ecreate_shard": "Ecreate Shard",
+  "item.easycreate.ecreate_rod": "Ecreate Rod",
+  "item.easycreate.heart_of_ecreate": "Ecreate Heart",
+  "item.easycreate.ecreate_quarts": "Ecreate Quarts",
+  "item.easycreate.ecreate_jewel": "Ecreate Jewel",
+  "item.easycreate.raw_ecreate": "Raw Ecreate Ingot",
+
+  "block.easycreate.ecreate_block": "Block of Ecreate",
+  "block.easycreate.ecreate_ore": "Ecreate Ore",
+
+  "creativetab.easy_create_tab": "Easy Create Mod"
+}
