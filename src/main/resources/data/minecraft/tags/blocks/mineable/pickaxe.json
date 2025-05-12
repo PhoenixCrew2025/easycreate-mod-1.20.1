@@ -1,6 +1,7 @@
 {
   "values": [
     "easycreate:ecreate_block",
-    "easycreate:ecreate_ore"
+    "easycreate:ecreate_iron_ore",
+    "easycreate:ecreate_corrupted_gold_ore"
   ]
 }

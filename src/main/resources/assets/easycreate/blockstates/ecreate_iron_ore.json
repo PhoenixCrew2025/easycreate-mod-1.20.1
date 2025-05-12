@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "easycreate:block/ecreate_ore"
+      "model": "easycreate:block/ecreate_iron_ore"
     }
   }
 }

@@ -26,9 +26,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ECREATE_JEWEL.get());
                         pOutput.accept(ModItems.HEART_OF_ECREATE.get());
                         pOutput.accept(ModItems.RAW_ECREATE.get());
+                        pOutput.accept(ModItems.ECREATE_CORRUPTED_RAW_GOLD.get());
+                        pOutput.accept(ModItems.ECREATE_CORRUPTED_GOLD.get());
 
                         pOutput.accept(ModBlocks.ECREATE_BLOCK.get());
                         pOutput.accept(ModBlocks.ECREATE_IRON_ORE.get());
+                        pOutput.accept(ModBlocks.ECREATE_CORRUPTED_GOLD_ORE.get());
 
 
                     })

@@ -7,9 +7,12 @@
   "item.easycreate.ecreate_quarts": "Ecreate Quarts",
   "item.easycreate.ecreate_jewel": "Ecreate Jewel",
   "item.easycreate.raw_ecreate": "Raw Ecreate Ingot",
+  "item.easycreate.ecreate_corrupted_raw_gold": "Corrupted Raw Gold",
+  "item.easycreate.ecreate_corrupted_gold": "Corrupted Gold",
 
   "block.easycreate.ecreate_block": "Block of Ecreate",
   "block.easycreate.ecreate_iron_ore": "Ecreate Iron Ore",
+  "block.easycreate.ecreate_corrupted_gold_ore": "Corrupted Gold Ore",
 
   "creativetab.easy_create_tab": "Easy Create Mod"
 }
