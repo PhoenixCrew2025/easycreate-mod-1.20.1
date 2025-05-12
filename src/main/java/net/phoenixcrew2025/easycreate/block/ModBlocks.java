@@ -29,7 +29,7 @@ public class ModBlocks {
 
 
 
-    public static final RegistryObject<Block> ECREATE_ORE = registerBlock("ecreate_ore",
+    public static final RegistryObject<Block> ECREATE_IRON_ORE = registerBlock("ecreate_iron_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
 

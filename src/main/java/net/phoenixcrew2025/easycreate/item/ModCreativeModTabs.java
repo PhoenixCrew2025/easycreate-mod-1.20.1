@@ -28,7 +28,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RAW_ECREATE.get());
 
                         pOutput.accept(ModBlocks.ECREATE_BLOCK.get());
-                        pOutput.accept(ModBlocks.ECREATE_ORE.get());
+                        pOutput.accept(ModBlocks.ECREATE_IRON_ORE.get());
 
 
                     })
