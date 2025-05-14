@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "easycreate:ecreate_block"
+      "item": "easycreate:ecreate_corrupted_iron_block"
     }
   ],
   "result": {
-    "item": "easycreate:ecreate_ingot",
+    "item": "easycreate:ecreate_corrupted_iron_ingot",
     "count": 9
   }
 }

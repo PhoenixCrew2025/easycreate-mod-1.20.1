@@ -12,7 +12,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, EasyCreate.MOD_ID);
 
 
-    public static final RegistryObject<Item> ECREATE_INGOT = ITEMS.register("ecreate_ingot",
+    public static final RegistryObject<Item> ECREATE_CORRUPTED_IRON_INGOT = ITEMS.register("ecreate_corrupted_iron_ingot",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CREATE_NETHER_STAR = ITEMS.register("create_nether_star",
             () -> new Item(new Item.Properties()));
@@ -26,7 +26,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> HEART_OF_ECREATE = ITEMS.register("heart_of_ecreate",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> RAW_ECREATE = ITEMS.register("raw_ecreate",
+    public static final RegistryObject<Item> ECREATE_CORRUPTED_RAW_IRON = ITEMS.register("ecreate_corrupted_raw_iron",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ECREATE_CORRUPTED_RAW_GOLD = ITEMS.register("ecreate_corrupted_raw_gold",
             () -> new Item(new Item.Properties()));

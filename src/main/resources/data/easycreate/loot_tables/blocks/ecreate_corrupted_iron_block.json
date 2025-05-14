@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "easycreate:ecreate_block"
+          "name": "easycreate:ecreate_corrupted_iron_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "easycreate:blocks/ecreate_block"
+  "random_sequence": "easycreate:blocks/ecreate_corrupted_iron_block"
 }

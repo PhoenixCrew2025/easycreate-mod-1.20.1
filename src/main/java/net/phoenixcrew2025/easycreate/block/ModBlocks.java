@@ -24,12 +24,12 @@ public class ModBlocks {
 
 
 
-    public static final RegistryObject<Block> ECREATE_BLOCK = registerBlock("ecreate_block",
+    public static final RegistryObject<Block> ECREATE_CORRUPTED_IRON_BLOCK = registerBlock("ecreate_corrupted_iron_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
 
 
-    public static final RegistryObject<Block> ECREATE_IRON_ORE = registerBlock("ecreate_iron_ore",
+    public static final RegistryObject<Block> ECREATE_CORRUPTED_IRON_ORE = registerBlock("ecreate_corrupted_iron_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
     public static final RegistryObject<Block> ECREATE_CORRUPTED_GOLD_ORE = registerBlock("ecreate_corrupted_gold_ore",

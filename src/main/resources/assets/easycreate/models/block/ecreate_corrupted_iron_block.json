@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "easycreate:block/ecreate_iron_ore"
+    "all": "easycreate:block/ecreate_corrupted_iron_block"
   }
 }

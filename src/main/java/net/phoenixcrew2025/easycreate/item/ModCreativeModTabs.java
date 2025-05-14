@@ -15,22 +15,22 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, EasyCreate.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> EASY_CREATE_TAB = CREATIVE_MODE_TABS.register("easy_create_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ECREATE_INGOT.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ECREATE_CORRUPTED_IRON_INGOT.get()))
                     .title(Component.translatable("creativetab.easy_create_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.ECREATE_INGOT.get());
+                        pOutput.accept(ModItems.ECREATE_CORRUPTED_IRON_INGOT.get());
                         pOutput.accept(ModItems.CREATE_NETHER_STAR.get());
                         pOutput.accept(ModItems.ECREATE_SHARD.get());
                         pOutput.accept(ModItems.ECREATE_ROD.get());
                         pOutput.accept(ModItems.ECREATE_QUARTS.get());
                         pOutput.accept(ModItems.ECREATE_JEWEL.get());
                         pOutput.accept(ModItems.HEART_OF_ECREATE.get());
-                        pOutput.accept(ModItems.RAW_ECREATE.get());
+                        pOutput.accept(ModItems.ECREATE_CORRUPTED_RAW_IRON.get());
                         pOutput.accept(ModItems.ECREATE_CORRUPTED_RAW_GOLD.get());
                         pOutput.accept(ModItems.ECREATE_CORRUPTED_GOLD.get());
 
-                        pOutput.accept(ModBlocks.ECREATE_BLOCK.get());
-                        pOutput.accept(ModBlocks.ECREATE_IRON_ORE.get());
+                        pOutput.accept(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK.get());
+                        pOutput.accept(ModBlocks.ECREATE_CORRUPTED_IRON_ORE.get());
                         pOutput.accept(ModBlocks.ECREATE_CORRUPTED_GOLD_ORE.get());
 
 

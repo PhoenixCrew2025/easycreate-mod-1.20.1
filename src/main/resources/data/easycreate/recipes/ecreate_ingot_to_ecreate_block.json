@@ -8,10 +8,10 @@
   ],
   "key": {
     "#": {
-      "item": "easycreate:ecreate_ingot"
+      "item": "easycreate:ecreate_corrupted_iron_ingot"
     }
   },
   "result": {
-    "item": "easycreate:ecreate_block"
+    "item": "easycreate:ecreate_corrupted_iron_block"
   }
 }

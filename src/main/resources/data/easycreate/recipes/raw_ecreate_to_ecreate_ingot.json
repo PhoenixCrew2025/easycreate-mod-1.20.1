@@ -5,7 +5,7 @@
   "experience": 0.35,
   "group": "ecreate",
   "ingredient": {
-    "item": "easycreate:raw_ecreate"
+    "item": "easycreate:ecreate_corrupted_raw_iron"
   },
-  "result": "easycreate:ecreate_ingot"
+  "result": "easycreate:ecreate_corrupted_iron_ingot"
 }
