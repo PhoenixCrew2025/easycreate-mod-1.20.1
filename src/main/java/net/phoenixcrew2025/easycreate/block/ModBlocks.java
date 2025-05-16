@@ -35,6 +35,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> ECREATE_CORRUPTED_GOLD_ORE = registerBlock("ecreate_corrupted_gold_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
+    public static final RegistryObject<Block> ECREATE_CORRUPTED_DIAMOND_ORE = registerBlock("ecreate_corrupted_diamond_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
 
 
 

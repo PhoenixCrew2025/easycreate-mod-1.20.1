@@ -32,6 +32,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ECREATE_CORRUPTED_GOLD = ITEMS.register("ecreate_corrupted_gold",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ECREATE_CORRUPTED_RAW_DIAMOND = ITEMS.register("ecreate_corrupted_raw_diamond",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ECREATE_CORRUPTED_DIAMOND = ITEMS.register("ecreate_corrupted_diamond",
+            () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

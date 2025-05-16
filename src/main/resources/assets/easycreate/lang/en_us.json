@@ -9,10 +9,13 @@
   "item.easycreate.ecreate_corrupted_raw_iron": "Corrupted Raw Iron",
   "item.easycreate.ecreate_corrupted_raw_gold": "Corrupted Raw Gold",
   "item.easycreate.ecreate_corrupted_gold": "Corrupted Gold",
+  "item.easycreate.ecreate_corrupted_raw_diamond": "Corrupted Raw Diamond",
+  "item.easycreate.ecreate_corrupted_diamond": "Corrupted Diamond",
 
   "block.easycreate.ecreate_corrupted_iron_block": "Corrupted Iron Block",
   "block.easycreate.ecreate_corrupted_iron_ore": "Corrupted Iron Ore",
   "block.easycreate.ecreate_corrupted_gold_ore": "Corrupted Gold Ore",
+  "block.easycreate.ecreate_corrupted_diamond_ore": "Corrupted Diamond Ore",
 
   "creativetab.easy_create_tab": "Easy Create Mod"
 }
