@@ -5,17 +5,21 @@
   "item.easycreate.ecreate_rod": "Ecreate Rod",
   "item.easycreate.heart_of_ecreate": "Ecreate Heart",
   "item.easycreate.ecreate_quarts": "Ecreate Quarts",
-  "item.easycreate.ecreate_jewel": "Ecreate Jewel",
   "item.easycreate.ecreate_corrupted_raw_iron": "Corrupted Raw Iron",
   "item.easycreate.ecreate_corrupted_raw_gold": "Corrupted Raw Gold",
   "item.easycreate.ecreate_corrupted_gold": "Corrupted Gold",
   "item.easycreate.ecreate_corrupted_raw_diamond": "Corrupted Raw Diamond",
   "item.easycreate.ecreate_corrupted_diamond": "Corrupted Diamond",
+  "item.easycreate.ecreate_corrupted_raw_emerald": "Corrupted Raw Emerald",
+  "item.easycreate.ecreate_corrupted_emerald": "Corrupted Emerald",
+  "item.easycreate.ecreate_corrupted_coal": "Corrupted Coal",
 
   "block.easycreate.ecreate_corrupted_iron_block": "Corrupted Iron Block",
   "block.easycreate.ecreate_corrupted_iron_ore": "Corrupted Iron Ore",
   "block.easycreate.ecreate_corrupted_gold_ore": "Corrupted Gold Ore",
   "block.easycreate.ecreate_corrupted_diamond_ore": "Corrupted Diamond Ore",
+  "block.easycreate.ecreate_corrupted_emerald_ore": "Corrupted Emerald Ore",
+  "block.easycreate.ecreate_corrupted_coal_ore": "Corrupted Coal Ore",
 
   "creativetab.easy_create_tab": "Easy Create Mod"
 }

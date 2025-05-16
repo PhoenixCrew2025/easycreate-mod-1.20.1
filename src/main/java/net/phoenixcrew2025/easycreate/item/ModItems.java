@@ -22,8 +22,6 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ECREATE_QUARTS = ITEMS.register("ecreate_quarts",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item>  ECREATE_JEWEL = ITEMS.register("ecreate_jewel",
-            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> HEART_OF_ECREATE = ITEMS.register("heart_of_ecreate",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ECREATE_CORRUPTED_RAW_IRON = ITEMS.register("ecreate_corrupted_raw_iron",
@@ -35,6 +33,12 @@ public class ModItems {
     public static final RegistryObject<Item> ECREATE_CORRUPTED_RAW_DIAMOND = ITEMS.register("ecreate_corrupted_raw_diamond",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ECREATE_CORRUPTED_DIAMOND = ITEMS.register("ecreate_corrupted_diamond",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ECREATE_CORRUPTED_RAW_EMERALD = ITEMS.register("ecreate_corrupted_raw_emerald",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ECREATE_CORRUPTED_EMERALD = ITEMS.register("ecreate_corrupted_emerald",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ECREATE_CORRUPTED_COAL = ITEMS.register("ecreate_corrupted_coal",
             () -> new Item(new Item.Properties()));
 
 
