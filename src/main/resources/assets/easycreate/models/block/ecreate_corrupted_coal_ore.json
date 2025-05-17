@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "easycreate:block/ecreate_corrupted_coal_ore"
-  }
-}
