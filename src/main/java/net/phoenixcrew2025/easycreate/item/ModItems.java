@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.phoenixcrew2025.easycreate.EasyCreate;
+import net.phoenixcrew2025.easycreate.item.custom.Fuelitem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -39,7 +40,7 @@ public class ModItems {
     public static final RegistryObject<Item> ECREATE_CORRUPTED_EMERALD = ITEMS.register("ecreate_corrupted_emerald",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ECREATE_CORRUPTED_COAL = ITEMS.register("ecreate_corrupted_coal",
-            () -> new Item(new Item.Properties()));
+            () -> new Fuelitem(new Item.Properties(), 72000));
 
 
     public static void register(IEventBus eventBus) {
