@@ -26,7 +26,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
             .add(ModBlocks.ECREATE_CORRUPTED_DIAMOND_ORE.get(),
                 ModBlocks.ECREATE_CORRUPTED_EMERALD_ORE.get(),
-                ModBlocks.ECREATE_CORRUPTED_GOLD_ORE.get()
+                ModBlocks.ECREATE_CORRUPTED_GOLD_ORE.get(),
+                ModBlocks.ECREATE_CORRUPTED_IRON_ORE.get()
             );
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
@@ -34,6 +35,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 ModBlocks.ECREATE_CORRUPTED_EMERALD_ORE.get(),
                 ModBlocks.ECREATE_CORRUPTED_GOLD_ORE.get(),
                 ModBlocks.ECREATE_CORRUPTED_DIAMOND_ORE.get(),
+                ModBlocks.ECREATE_CORRUPTED_IRON_ORE.get(),
                 ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK.get());
 }
 }

@@ -30,6 +30,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ECREATE_QUARTS);
         simpleItem(ModItems.ECREATE_SHARD);
         simpleItem(ModItems.HEART_OF_ECREATE);
+        simpleItem(ModItems.ECREATE_CORRUPTED_IRON_INGOT);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
