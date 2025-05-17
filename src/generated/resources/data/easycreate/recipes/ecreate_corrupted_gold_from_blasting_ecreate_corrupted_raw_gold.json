@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 180,
+  "experience": 0.25,
+  "group": "ecreate_corrupted_gold",
+  "ingredient": {
+    "item": "easycreate:ecreate_corrupted_raw_gold"
+  },
+  "result": "easycreate:ecreate_corrupted_gold"
+}

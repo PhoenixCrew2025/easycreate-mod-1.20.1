@@ -1,0 +1,4 @@
+// 1.20.1	2025-05-17T06:02:36.275387	Tags for minecraft:block mod id easycreate
+086e33aa9273a29d2facd7b21316e3460602ded7 data/minecraft/tags/blocks/mineable/pickaxe.json
+72fcf0dda42264cdd6454922f9644f4c924b1f76 data/minecraft/tags/blocks/needs_diamond_tool.json
+a845da7c3ace3d28d814e10957bedda748b9ee24 data/minecraft/tags/blocks/needs_iron_tool.json

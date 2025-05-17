@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 480,
+  "experience": 0.25,
+  "group": "ecreate_corrupted_iron",
+  "ingredient": {
+    "item": "easycreate:ecreate_corrupted_raw_iron"
+  },
+  "result": "easycreate:ecreate_corrupted_iron_ingot"
+}

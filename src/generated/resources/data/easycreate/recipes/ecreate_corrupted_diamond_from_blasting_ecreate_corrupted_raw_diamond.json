@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 180,
+  "experience": 0.25,
+  "group": "ecreate_corrupted_diamond",
+  "ingredient": {
+    "item": "easycreate:ecreate_corrupted_raw_diamond"
+  },
+  "result": "easycreate:ecreate_corrupted_diamond"
+}
