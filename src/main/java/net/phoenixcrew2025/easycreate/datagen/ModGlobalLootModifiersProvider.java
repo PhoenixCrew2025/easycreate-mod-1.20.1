@@ -3,6 +3,7 @@ package net.phoenixcrew2025.easycreate.datagen;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
+import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition;
 import net.minecraftforge.common.data.GlobalLootModifierProvider;
 import net.minecraftforge.common.loot.LootTableIdCondition;
 import net.phoenixcrew2025.easycreate.EasyCreate;
@@ -17,6 +18,7 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
     @Override
     protected void start() {
         add("ecreate_star_from_wither", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("entities/wither")).build() }, ModItems.CREATE_NETHER_STAR.get()));
+                new LootTableIdCondition.Builder(new ResourceLocation("entities/wither")).build(),
+                LootItemRandomChanceCondition.randomChance(0.35f).build()}, ModItems.CREATE_NETHER_STAR.get()));
     }
 }
