@@ -1,3 +1,4 @@
-// 1.20.1	2025-05-17T06:02:36.2643735	Global Loot Modifiers : easycreate
+// 1.20.1	2025-05-17T06:19:04.374406	Global Loot Modifiers : easycreate
 93055c2fa3b5ca0ae3ff6a0483730e7e73195d27 data/easycreate/loot_modifiers/ecreate_star_from_wither.json
-8eba3db5a89ab66d10dee1805233c29d4dfc2f5d data/forge/loot_modifiers/global_loot_modifiers.json
+caa43299506266852b7456034ba0e96cd3fd9d63 data/easycreate/loot_modifiers/heart_of_ecreate_from_suspicous_sand.json
+90d5afcaad41df804bed0b95c4daf48040f923f4 data/forge/loot_modifiers/global_loot_modifiers.json

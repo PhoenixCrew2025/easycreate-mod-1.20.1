@@ -9,6 +9,7 @@ import net.minecraftforge.common.loot.LootTableIdCondition;
 import net.phoenixcrew2025.easycreate.EasyCreate;
 import net.phoenixcrew2025.easycreate.item.ModItems;
 import net.phoenixcrew2025.easycreate.loot.AddItemModifier;
+import net.phoenixcrew2025.easycreate.loot.AddSusSandItemModifier;
 
 public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
     public ModGlobalLootModifiersProvider(PackOutput output) {
@@ -20,5 +21,7 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
         add("ecreate_star_from_wither", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/wither")).build(),
                 LootItemRandomChanceCondition.randomChance(0.35f).build()}, ModItems.CREATE_NETHER_STAR.get()));
+        add("heart_of_ecreate_from_suspicous_sand", new AddSusSandItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/desert_pyramid")).build() }, ModItems.HEART_OF_ECREATE.get()));
     }
 }
