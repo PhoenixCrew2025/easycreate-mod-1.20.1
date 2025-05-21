@@ -24,11 +24,11 @@ public class ModBiomeModifiers {
         var biomes = context.lookup(Registries.BIOME);
 
         context.register(ADD_CORRUPTED_COAL_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
-                HolderSet.direct(biomes.getOrThrow(Biomes.BADLANDS)),
+                HolderSet.direct(biomes.getOrThrow(Biomes.DESERT)),
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.OVERWORLD_ECREATE_CORRUPTED_COAL_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
         context.register(ADD_CORRUPTED_IRON_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
-                HolderSet.direct(biomes.getOrThrow(Biomes.BADLANDS)),
+                HolderSet.direct(biomes.getOrThrow(Biomes.JUNGLE)),
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.OVERWORLD_ECREATE_CORRUPTED_IRON_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
         context.register(ADD_CORRUPTED_GOLD_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
@@ -36,11 +36,11 @@ public class ModBiomeModifiers {
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.OVERWORLD_ECREATE_CORRUPTED_GOLD_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
         context.register(ADD_CORRUPTED_DIAMOND_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
-                HolderSet.direct(biomes.getOrThrow(Biomes.BADLANDS)),
+                HolderSet.direct(biomes.getOrThrow(Biomes.SNOWY_TAIGA)),
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.OVERWORLD_ECREATE_CORRUPTED_DIAMOND_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
         context.register(ADD_CORRUPTED_EMERALD_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
-                HolderSet.direct(biomes.getOrThrow(Biomes.BADLANDS)),
+                HolderSet.direct(biomes.getOrThrow(Biomes.DARK_FOREST)),
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.OVERWORLD_ECREATE_CORRUPTED_EMERALD_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
     }

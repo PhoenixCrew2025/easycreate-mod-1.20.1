@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "minecraft:badlands",
+  "biomes": "minecraft:jungle",
   "features": "easycreate:ecreate_corrupted_iron_ore_placed",
   "step": "underground_ores"
 }
