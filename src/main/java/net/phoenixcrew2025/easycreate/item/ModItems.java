@@ -1,6 +1,6 @@
 package net.phoenixcrew2025.easycreate.item;
 
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -41,6 +41,17 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ECREATE_CORRUPTED_COAL = ITEMS.register("ecreate_corrupted_coal",
             () -> new Fuelitem(new Item.Properties(), 72000));
+
+    public static final RegistryObject<Item> ECREATE_SWORD = ITEMS.register("ecreate_sword",
+            () -> new SwordItem(ModToolTiers.ECREATE, 1000, 80, new Item.Properties()));
+    public static final RegistryObject<Item> ECREATE_PICKAXE = ITEMS.register("ecreate_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ECREATE, 800, 80, new Item.Properties()));
+    public static final RegistryObject<Item> ECREATE_AXE = ITEMS.register("ecreate_axe",
+            () -> new AxeItem(ModToolTiers.ECREATE, 1200, 80, new Item.Properties()));
+    public static final RegistryObject<Item> ECREATE_SHOVEL = ITEMS.register("ecreate_shovel",
+            () -> new ShovelItem(ModToolTiers.ECREATE, 500, 80, new Item.Properties()));
+    public static final RegistryObject<Item> ECREATE_HOE = ITEMS.register("ecreate_hoe",
+            () -> new HoeItem(ModToolTiers.ECREATE, 500, 80, new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

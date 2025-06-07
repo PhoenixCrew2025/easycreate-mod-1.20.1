@@ -33,6 +33,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ECREATE_CORRUPTED_RAW_EMERALD.get());
                         pOutput.accept(ModItems.ECREATE_CORRUPTED_COAL.get());
 
+                        pOutput.accept(ModItems.ECREATE_SWORD.get());
+                        pOutput.accept(ModItems.ECREATE_PICKAXE.get());
+                        pOutput.accept(ModItems.ECREATE_AXE.get());
+                        pOutput.accept(ModItems.ECREATE_SHOVEL.get());
+                        pOutput.accept(ModItems.ECREATE_HOE.get());
+
                         pOutput.accept(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK.get());
                         pOutput.accept(ModBlocks.ECREATE_CORRUPTED_IRON_ORE.get());
                         pOutput.accept(ModBlocks.ECREATE_CORRUPTED_GOLD_ORE.get());

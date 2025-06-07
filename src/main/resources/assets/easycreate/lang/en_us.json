@@ -14,6 +14,13 @@
   "item.easycreate.ecreate_corrupted_emerald": "Corrupted Emerald",
   "item.easycreate.ecreate_corrupted_coal": "Corrupted Coal",
 
+
+  "item.easycreate.ecreate_sword": "Ecreate King Sword",
+  "item.easycreate.ecreate_pickaxe": "Ecreate King Pickaxe",
+  "item.easycreate.ecreate_axe": "Ecreate King Axe",
+  "item.easycreate.ecreate_shovel": "Ecreate King Shovel",
+  "item.easycreate.ecreate_hoe": "Ecreate King Hoe",
+
   "block.easycreate.ecreate_corrupted_iron_block": "Corrupted Iron Block",
   "block.easycreate.ecreate_corrupted_iron_ore": "Corrupted Iron Ore",
   "block.easycreate.ecreate_corrupted_gold_ore": "Corrupted Gold Ore",

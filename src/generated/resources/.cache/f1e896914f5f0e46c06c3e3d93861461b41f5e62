@@ -1,5 +1,6 @@
-// 1.20.1	2025-05-17T06:02:36.2783772	Item Models: easycreate
+// 1.20.1	2025-06-07T08:09:07.3500063	Item Models: easycreate
 6cdce778b2abc6f958a9b0196fde6b1f37b030b9 assets/easycreate/models/item/create_nether_star.json
+6f8aeb187c7cb6b39b076c6b72d6442af0f21ea4 assets/easycreate/models/item/ecreate_axe.json
 645372bd6f611a25447867e7e9d0e9b38fe8ae80 assets/easycreate/models/item/ecreate_corrupted_coal.json
 789f1ebb2464c3411d83a616227be4b6480cf163 assets/easycreate/models/item/ecreate_corrupted_diamond.json
 3eb1e15157a5213dcb9e7d8c1da27a1aba98cdad assets/easycreate/models/item/ecreate_corrupted_emerald.json
@@ -9,7 +10,11 @@ ec1ba0a74af9b12367a41c54afc962124597b246 assets/easycreate/models/item/ecreate_c
 b8ba525d06cc74a62267bf3210b71039e2a3ce0f assets/easycreate/models/item/ecreate_corrupted_raw_emerald.json
 a65c37de533ec044f92b0187f77ddc9b6e1a3c2f assets/easycreate/models/item/ecreate_corrupted_raw_gold.json
 a6018be14a5e32a9e161258a73847e27cebecd7a assets/easycreate/models/item/ecreate_corrupted_raw_iron.json
+6484c188e690c8e845eda941bc751ba0c3fdcad8 assets/easycreate/models/item/ecreate_hoe.json
+c59bd1aa2266438272cf7265bdb7aab76dc7d091 assets/easycreate/models/item/ecreate_pickaxe.json
 db2080ccff9267e2cef2d4595ae5634e7fbd55b9 assets/easycreate/models/item/ecreate_quarts.json
 036a71f8e87cdcd0eb5a1cd80ec18a43ad75bb09 assets/easycreate/models/item/ecreate_rod.json
 13e74e4a4679df5d2b6173651ac58f1c1a02e21f assets/easycreate/models/item/ecreate_shard.json
+0e667ba99ad434da4dbf97a475e9b2dd27e1c3e1 assets/easycreate/models/item/ecreate_shovel.json
+fbfc00f897f09477c5c642f0acb141e2f2ab886d assets/easycreate/models/item/ecreate_sword.json
 87da2485a133e524f908b4c140672fb25caaa162 assets/easycreate/models/item/heart_of_ecreate.json

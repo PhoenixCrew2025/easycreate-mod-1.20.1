@@ -31,7 +31,21 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ECREATE_SHARD);
         simpleItem(ModItems.HEART_OF_ECREATE);
         simpleItem(ModItems.ECREATE_CORRUPTED_IRON_INGOT);
+
+        handheldItem(ModItems.ECREATE_SWORD);
+        handheldItem(ModItems.ECREATE_AXE);
+        handheldItem(ModItems.ECREATE_PICKAXE);
+        handheldItem(ModItems.ECREATE_SHOVEL);
+        handheldItem(ModItems.ECREATE_HOE);
     }
+
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(EasyCreate.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
