@@ -7,6 +7,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.phoenixcrew2025.easycreate.EasyCreate;
 import net.phoenixcrew2025.easycreate.item.custom.Fuelitem;
+import net.phoenixcrew2025.easycreate.item.custom.ModArmorItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -56,7 +57,7 @@ public class ModItems {
     public static final RegistryObject<Item> ECREATE_HELMET = ITEMS.register("ecreate_helmet",
             () -> new ArmorItem(ModArmorMaterials.ECREATE, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> ECREATE_CHESTPLATE = ITEMS.register("ecreate_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.ECREATE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.ECREATE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> ECREATE_LEGGINGS = ITEMS.register("ecreate_leggings",
             () -> new ArmorItem(ModArmorMaterials.ECREATE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> ECREATE_BOOTS = ITEMS.register("ecreate_boots",
