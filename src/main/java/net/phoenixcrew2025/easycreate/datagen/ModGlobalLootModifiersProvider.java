@@ -18,9 +18,6 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
 
     @Override
     protected void start() {
-        add("ecreate_star_from_wither", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("entities/wither")).build(),
-                LootItemRandomChanceCondition.randomChance(0.35f).build()}, ModItems.CREATE_NETHER_STAR.get()));
         add("heart_of_ecreate_from_suspicous_sand", new AddSusSandItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("archaeology/desert_pyramid")).build() }, ModItems.HEART_OF_ECREATE.get()));
     }
