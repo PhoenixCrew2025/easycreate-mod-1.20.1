@@ -39,6 +39,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ECREATE_SHOVEL.get());
                         pOutput.accept(ModItems.ECREATE_HOE.get());
 
+                        pOutput.accept(ModItems.ECREATE_HELMET.get());
+                        pOutput.accept(ModItems.ECREATE_CHESTPLATE.get());
+                        pOutput.accept(ModItems.ECREATE_LEGGINGS.get());
+                        pOutput.accept(ModItems.ECREATE_BOOTS.get());
+
                         pOutput.accept(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK.get());
                         pOutput.accept(ModBlocks.ECREATE_CORRUPTED_IRON_ORE.get());
                         pOutput.accept(ModBlocks.ECREATE_CORRUPTED_GOLD_ORE.get());

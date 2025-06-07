@@ -53,6 +53,15 @@ public class ModItems {
     public static final RegistryObject<Item> ECREATE_HOE = ITEMS.register("ecreate_hoe",
             () -> new HoeItem(ModToolTiers.ECREATE, 500, 80, new Item.Properties()));
 
+    public static final RegistryObject<Item> ECREATE_HELMET = ITEMS.register("ecreate_helmet",
+            () -> new ArmorItem(ModArmorMaterials.ECREATE, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> ECREATE_CHESTPLATE = ITEMS.register("ecreate_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.ECREATE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> ECREATE_LEGGINGS = ITEMS.register("ecreate_leggings",
+            () -> new ArmorItem(ModArmorMaterials.ECREATE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> ECREATE_BOOTS = ITEMS.register("ecreate_boots",
+            () -> new ArmorItem(ModArmorMaterials.ECREATE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
