@@ -44,5 +44,8 @@
   "block.easycreate.ecreate_corrupted_emerald_ore": "Corrupted Emerald Ore",
   "block.easycreate.ecreate_corrupted_coal_ore": "Corrupted Coal Ore",
 
+  "item.easycreate.demons_song_music_disc": "Ain't no rest for the wicked Song",
+  "item.easycreate.demons_song_music_disc.desc": "Cage the Elephant - Ain't no rest for the wicked",
+
   "creativetab.easy_create_tab": "Easy Create Mod"
 }

@@ -26,5 +26,8 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.ECREATE_CHESTPLATE.get(),
                         ModItems.ECREATE_LEGGINGS.get(),
                         ModItems.ECREATE_BOOTS.get());
+
+        this.tag(ItemTags.MUSIC_DISCS)
+                .add(ModItems.DEMONS_SONG_MUSIC_DISC.get());
     }
 }

@@ -64,6 +64,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.MEK_GOD_PART.get());
                         pOutput.accept(ModItems.ECREATE_CRYSTAL.get());
 
+                        pOutput.accept(ModItems.DEMONS_SONG_MUSIC_DISC.get());
+
                     })
                     .build());
 

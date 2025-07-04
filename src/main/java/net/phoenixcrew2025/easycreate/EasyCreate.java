@@ -15,6 +15,7 @@ import net.phoenixcrew2025.easycreate.block.ModBlocks;
 import net.phoenixcrew2025.easycreate.item.ModCreativeModTabs;
 import net.phoenixcrew2025.easycreate.item.ModItems;
 import net.phoenixcrew2025.easycreate.loot.ModLootModifiers;
+import net.phoenixcrew2025.easycreate.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -34,6 +35,8 @@ public class EasyCreate {
         ModBlocks.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

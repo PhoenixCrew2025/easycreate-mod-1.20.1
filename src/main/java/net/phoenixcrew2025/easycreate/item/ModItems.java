@@ -9,6 +9,7 @@ import net.phoenixcrew2025.easycreate.EasyCreate;
 import net.phoenixcrew2025.easycreate.block.ModBlocks;
 import net.phoenixcrew2025.easycreate.item.custom.Fuelitem;
 import net.phoenixcrew2025.easycreate.item.custom.ModArmorItem;
+import net.phoenixcrew2025.easycreate.sound.ModSounds;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -88,6 +89,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ORE_GOD_PART = ITEMS.register("ore_god_part",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> DEMONS_SONG_MUSIC_DISC = ITEMS.register("demons_song_music_disc",
+            () -> new RecordItem(6, ModSounds.DEMONS_SONG, new Item.Properties().stacksTo(1), 3500));
 
 
     public static void register(IEventBus eventBus) {

@@ -1,0 +1,10 @@
+{
+"demons_song": {
+  "sounds": [
+    {
+      "name": "easycreate:demons_song",
+      "stream": true
+    }
+  ]
+}
+}

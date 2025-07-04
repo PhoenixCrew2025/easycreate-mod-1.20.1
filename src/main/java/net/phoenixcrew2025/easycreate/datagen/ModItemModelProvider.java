@@ -69,6 +69,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.MODIUM_GOD_PART);
         simpleItem(ModItems.ECREATE_CRYSTAL);
 
+        simpleItem(ModItems.DEMONS_SONG_MUSIC_DISC);
 
         handheldItem(ModItems.ECREATE_SWORD);
         handheldItem(ModItems.ECREATE_AXE);
