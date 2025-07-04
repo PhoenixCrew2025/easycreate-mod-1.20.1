@@ -1,4 +1,6 @@
-// 1.20.1	2025-06-07T12:06:52.9707751	Item Models: easycreate
+// 1.20.1	2025-07-04T11:21:10.517515	Item Models: easycreate
+b808abdf9a2684b6ace1b67a0b4cd775b4eb94b7 assets/easycreate/models/item/blood_god_part.json
+437ab16f0e1a39d2251652878233c4bc1d11acf6 assets/easycreate/models/item/create_god_part.json
 6cdce778b2abc6f958a9b0196fde6b1f37b030b9 assets/easycreate/models/item/create_nether_star.json
 6f8aeb187c7cb6b39b076c6b72d6442af0f21ea4 assets/easycreate/models/item/ecreate_axe.json
 f66555c2e58a1f384ca52947d74f056f1a4c5ade assets/easycreate/models/item/ecreate_boots.json
@@ -32,6 +34,8 @@ ec1ba0a74af9b12367a41c54afc962124597b246 assets/easycreate/models/item/ecreate_c
 b8ba525d06cc74a62267bf3210b71039e2a3ce0f assets/easycreate/models/item/ecreate_corrupted_raw_emerald.json
 a65c37de533ec044f92b0187f77ddc9b6e1a3c2f assets/easycreate/models/item/ecreate_corrupted_raw_gold.json
 a6018be14a5e32a9e161258a73847e27cebecd7a assets/easycreate/models/item/ecreate_corrupted_raw_iron.json
+27ced0a382b0d85e05e7b15d132c6620c044bedd assets/easycreate/models/item/ecreate_crystal.json
+e387c171783209c503500df6ceb63c9fd5a8ea05 assets/easycreate/models/item/ecreate_essence.json
 ae6bd58331f4af067b2c0b9730c51ada5e840742 assets/easycreate/models/item/ecreate_helmet.json
 b6872f6d42ded0eaab06859648b5bc547bb57470 assets/easycreate/models/item/ecreate_helmet_amethyst_trim.json
 1146508ecd688b08fd42a5a42ef51d76c9fba57a assets/easycreate/models/item/ecreate_helmet_copper_trim.json
@@ -58,7 +62,13 @@ c1b55c615d85e43fb6ca4d6705e2dac656c7812b assets/easycreate/models/item/ecreate_l
 c59bd1aa2266438272cf7265bdb7aab76dc7d091 assets/easycreate/models/item/ecreate_pickaxe.json
 db2080ccff9267e2cef2d4595ae5634e7fbd55b9 assets/easycreate/models/item/ecreate_quarts.json
 036a71f8e87cdcd0eb5a1cd80ec18a43ad75bb09 assets/easycreate/models/item/ecreate_rod.json
+aecf85d06ffd686de3492250a14eb96501f33640 assets/easycreate/models/item/ecreate_seeds.json
 13e74e4a4679df5d2b6173651ac58f1c1a02e21f assets/easycreate/models/item/ecreate_shard.json
 0e667ba99ad434da4dbf97a475e9b2dd27e1c3e1 assets/easycreate/models/item/ecreate_shovel.json
 fbfc00f897f09477c5c642f0acb141e2f2ab886d assets/easycreate/models/item/ecreate_sword.json
+0b24d6f441d8d506605f6bf2f9c8650d85c16815 assets/easycreate/models/item/food_god_part.json
+498fec3ae678dafa1e82a1168b5e2ffc0ad2327a assets/easycreate/models/item/god_main_part.json
 87da2485a133e524f908b4c140672fb25caaa162 assets/easycreate/models/item/heart_of_ecreate.json
+efb4a4d5fd16ae505d83053ed2f805e3811d1162 assets/easycreate/models/item/mek_god_part.json
+410b503ffe7b17e2037f056ff8026857f5aa37a2 assets/easycreate/models/item/modium_god_part.json
+4cc0df13f7b1e04587b5ae0158602bec1eea1df0 assets/easycreate/models/item/ore_god_part.json

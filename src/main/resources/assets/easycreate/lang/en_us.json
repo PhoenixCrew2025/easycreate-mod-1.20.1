@@ -25,6 +25,18 @@
   "item.easycreate.ecreate_shovel": "Ecreate King Shovel",
   "item.easycreate.ecreate_hoe": "Ecreate King Hoe",
 
+  "item.easycreate.ecreate_seeds": "Ecreate Seeds",
+  "item.easycreate.ecreate_essence": "Ecreate Essence",
+
+  "item.easycreate.blood_god_part": "Blood Magic God Part",
+  "item.easycreate.create_god_part": "Create's God Part",
+  "item.easycreate.ecreate_crystal": "Ecreate Crystal",
+  "item.easycreate.food_god_part": "All Foods God Part",
+  "item.easycreate.god_main_part": "Final God Part",
+  "item.easycreate.mek_god_part": "Mekanism God Part",
+  "item.easycreate.modium_god_part": "Allthemodium God Part",
+  "item.easycreate.ore_god_part": "All Ores God Part",
+
   "block.easycreate.ecreate_corrupted_iron_block": "Corrupted Iron Block",
   "block.easycreate.ecreate_corrupted_iron_ore": "Corrupted Iron Ore",
   "block.easycreate.ecreate_corrupted_gold_ore": "Corrupted Gold Ore",

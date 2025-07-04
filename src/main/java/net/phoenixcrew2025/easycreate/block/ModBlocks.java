@@ -12,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.phoenixcrew2025.easycreate.EasyCreate;
+import net.phoenixcrew2025.easycreate.block.custom.EcreateCropBlock;
 import net.phoenixcrew2025.easycreate.item.ModItems;
 
 import java.util.function.Supplier;
@@ -45,6 +46,9 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
 
+
+    public static final RegistryObject<Block> ECREATE_CROP = BLOCKS.register("ecreate_crop",
+            () -> new EcreateCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
 
 

@@ -2,10 +2,13 @@ package net.phoenixcrew2025.easycreate.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.MinecartItem;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.phoenixcrew2025.easycreate.EasyCreate;
 import net.phoenixcrew2025.easycreate.block.ModBlocks;
@@ -57,6 +60,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK.get()), has(ModBlocks.ECREATE_CORRUPTED_IRON_BLOCK.get()))
                 .save(pWriter);
+
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {

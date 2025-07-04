@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.phoenixcrew2025.easycreate.EasyCreate;
+import net.phoenixcrew2025.easycreate.block.ModBlocks;
 import net.phoenixcrew2025.easycreate.item.custom.Fuelitem;
 import net.phoenixcrew2025.easycreate.item.custom.ModArmorItem;
 
@@ -62,6 +63,31 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.ECREATE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> ECREATE_BOOTS = ITEMS.register("ecreate_boots",
             () -> new ArmorItem(ModArmorMaterials.ECREATE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+
+    public static final RegistryObject<Item> ECREATE_SEEDS = ITEMS.register("ecreate_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.ECREATE_CROP.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> ECREATE_ESSENCE = ITEMS.register("ecreate_essence",
+            () -> new Item(new Item.Properties()));
+
+
+    public static final RegistryObject<Item> BLOOD_GOD_PART = ITEMS.register("blood_god_part",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CREATE_GOD_PART = ITEMS.register("create_god_part",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ECREATE_CRYSTAL = ITEMS.register("ecreate_crystal",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FOOD_GOD_PART = ITEMS.register("food_god_part",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOD_MAIN_PART = ITEMS.register("god_main_part",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MEK_GOD_PART = ITEMS.register("mek_god_part",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MODIUM_GOD_PART = ITEMS.register("modium_god_part",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ORE_GOD_PART = ITEMS.register("ore_god_part",
+            () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

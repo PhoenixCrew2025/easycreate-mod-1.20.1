@@ -57,6 +57,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ECREATE_SHARD);
         simpleItem(ModItems.HEART_OF_ECREATE);
         simpleItem(ModItems.ECREATE_CORRUPTED_IRON_INGOT);
+        simpleItem(ModItems.ECREATE_SEEDS);
+        simpleItem(ModItems.ECREATE_ESSENCE);
+
+        simpleItem(ModItems.GOD_MAIN_PART);
+        simpleItem(ModItems.BLOOD_GOD_PART);
+        simpleItem(ModItems.CREATE_GOD_PART);
+        simpleItem(ModItems.FOOD_GOD_PART);
+        simpleItem(ModItems.MEK_GOD_PART);
+        simpleItem(ModItems.ORE_GOD_PART);
+        simpleItem(ModItems.MODIUM_GOD_PART);
+        simpleItem(ModItems.ECREATE_CRYSTAL);
+
 
         handheldItem(ModItems.ECREATE_SWORD);
         handheldItem(ModItems.ECREATE_AXE);

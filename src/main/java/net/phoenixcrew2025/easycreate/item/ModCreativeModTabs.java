@@ -52,6 +52,18 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.ECREATE_CORRUPTED_COAL_ORE.get());
 
 
+                        pOutput.accept(ModItems.ECREATE_SEEDS.get());
+                        pOutput.accept(ModItems.ECREATE_ESSENCE.get());
+
+                        pOutput.accept(ModItems.BLOOD_GOD_PART.get());
+                        pOutput.accept(ModItems.CREATE_GOD_PART.get());
+                        pOutput.accept(ModItems.FOOD_GOD_PART.get());
+                        pOutput.accept(ModItems.GOD_MAIN_PART.get());
+                        pOutput.accept(ModItems.ORE_GOD_PART.get());
+                        pOutput.accept(ModItems.MODIUM_GOD_PART.get());
+                        pOutput.accept(ModItems.MEK_GOD_PART.get());
+                        pOutput.accept(ModItems.ECREATE_CRYSTAL.get());
+
                     })
                     .build());
 
