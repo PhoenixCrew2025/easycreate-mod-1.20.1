@@ -1,8 +1,12 @@
 package net.phoenixcrew2025.easycreate.block;
 
+import net.minecraft.network.chat.Component;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
@@ -14,7 +18,9 @@ import net.minecraftforge.registries.RegistryObject;
 import net.phoenixcrew2025.easycreate.EasyCreate;
 import net.phoenixcrew2025.easycreate.block.custom.EcreateCropBlock;
 import net.phoenixcrew2025.easycreate.item.ModItems;
+import org.jetbrains.annotations.Nullable;
 
+import java.util.List;
 import java.util.function.Supplier;
 
 public class ModBlocks {
@@ -32,19 +38,49 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ECREATE_CORRUPTED_IRON_ORE = registerBlock("ecreate_corrupted_iron_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
+                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)){
+                @Override
+                public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
+                    pTooltip.add(Component.translatable("tooltip.easycreate.ecreate_corrupted_iron_ore"));
+                    super.appendHoverText(pStack, pLevel, pTooltip, pFlag);
+                }
+            });
     public static final RegistryObject<Block> ECREATE_CORRUPTED_GOLD_ORE = registerBlock("ecreate_corrupted_gold_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
+                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)){
+                @Override
+                public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
+                    pTooltip.add(Component.translatable("tooltip.easycreate.ecreate_corrupted_gold_ore"));
+                    super.appendHoverText(pStack, pLevel, pTooltip, pFlag);
+                }
+            });
     public static final RegistryObject<Block> ECREATE_CORRUPTED_DIAMOND_ORE = registerBlock("ecreate_corrupted_diamond_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
+                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)){
+                @Override
+                public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
+                    pTooltip.add(Component.translatable("tooltip.easycreate.ecreate_corrupted_diamond_ore"));
+                    super.appendHoverText(pStack, pLevel, pTooltip, pFlag);
+                }
+            });
     public static final RegistryObject<Block> ECREATE_CORRUPTED_EMERALD_ORE = registerBlock("ecreate_corrupted_emerald_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
+                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)){
+                @Override
+                public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
+                    pTooltip.add(Component.translatable("tooltip.easycreate.ecreate_corrupted_emerald_ore"));
+                    super.appendHoverText(pStack, pLevel, pTooltip, pFlag);
+                }
+            });
     public static final RegistryObject<Block> ECREATE_CORRUPTED_COAL_ORE = registerBlock("ecreate_corrupted_coal_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
+                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)) {
+                @Override
+                public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
+                    pTooltip.add(Component.translatable("tooltip.easycreate.ecreate_corrupted_coal_ore"));
+                    super.appendHoverText(pStack, pLevel, pTooltip, pFlag);
+                }
+            });
 
 
     public static final RegistryObject<Block> ECREATE_CROP = BLOCKS.register("ecreate_crop",

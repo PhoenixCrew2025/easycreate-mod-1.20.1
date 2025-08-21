@@ -71,6 +71,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.DEMONS_SONG_MUSIC_DISC);
 
+        simpleItem(ModItems.ATM_ALLOY_SMITHING_TEMPLATE);
+
         handheldItem(ModItems.ECREATE_SWORD);
         handheldItem(ModItems.ECREATE_AXE);
         handheldItem(ModItems.ECREATE_PICKAXE);

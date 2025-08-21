@@ -90,6 +90,9 @@ public class ModItems {
     public static final RegistryObject<Item> ORE_GOD_PART = ITEMS.register("ore_god_part",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ATM_ALLOY_SMITHING_TEMPLATE = ITEMS.register("atm_alloy_smithing_template",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> DEMONS_SONG_MUSIC_DISC = ITEMS.register("demons_song_music_disc",
             () -> new RecordItem(6, ModSounds.DEMONS_SONG, new Item.Properties().stacksTo(1), 3500));
 

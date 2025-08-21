@@ -44,8 +44,19 @@
   "block.easycreate.ecreate_corrupted_emerald_ore": "Corrupted Emerald Ore",
   "block.easycreate.ecreate_corrupted_coal_ore": "Corrupted Coal Ore",
 
+  "tooltip.easycreate.ecreate_corrupted_coal_ore": "§eYou can find this Ore in the §nDesert§r§e Biome",
+  "tooltip.easycreate.ecreate_corrupted_iron_ore": "§eYou can find this Ore in the §nJungle§r§e Biome",
+  "tooltip.easycreate.ecreate_corrupted_gold_ore": "§eYou can Find this Ore in the §nBadlands§r§e Biome",
+  "tooltip.easycreate.ecreate_corrupted_diamond_ore": "§eYou can find this Ore in the §nSnowy Taiga§r§e Biome",
+  "tooltip.easycreate.ecreate_corrupted_emerald_ore": "§eYou can find this Ore in the §nDark Forest§r§e Biome",
+
+  "item.easycreate.atm_alloy_smithing_template": "AllTheModium Alloy Smithing Template",
+
   "item.easycreate.demons_song_music_disc": "Ain't no rest for the wicked Song",
   "item.easycreate.demons_song_music_disc.desc": "Cage the Elephant - Ain't no rest for the wicked",
 
-  "creativetab.easy_create_tab": "Easy Create Mod"
+  "creativetab.easycreate.easy_create_items_tab": "ECreate Items Tab",
+  "creativetab.easycreate.easy_create_blocks_tab": "ECreate Blocks Tab",
+  "creativetab.easycreate.easy_create_at_tab": "ECreate Armor/Tools Tab",
+  "creativetab.easycreate.easy_create_god_parts_tab": "ECreate God Parts"
 }

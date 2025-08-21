@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     ECREATE("ecreate", 1000, new int[]{ 1000000, 1000000, 1000000, 1000000 }, 25,
-            SoundEvents.ARMOR_EQUIP_NETHERITE, 1000f, 100f, () -> Ingredient.of(ModItems.ECREATE_CORRUPTED_DIAMOND.get()));
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 1000000000f, 100f, () -> Ingredient.of(ModItems.ECREATE_CORRUPTED_DIAMOND.get()));
 
     private final String name;
     private final int durabilityMultiplier;
